@@ -1,3 +1,6 @@
+# Powerball temp file
+powerballNumbers.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -14,7 +17,9 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+
+# Used for library files
+#lib/
 lib64/
 parts/
 sdist/
