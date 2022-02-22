@@ -57,8 +57,8 @@ class statistics:
                 WB=self.ballpit[i].white()
                 redList[int(self.ballpit[i].powerball())]+=1
 
-            for i in range(len(WB)):
-                whiteList[int(WB[i])]+=1
+                for j in range(len(WB)):
+                    whiteList[int(WB[j])]+=1
 
             for i in range(5): #Pick 5 numbers.
                 index = whiteList.index(max(whiteList))
